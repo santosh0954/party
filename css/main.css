@@ -70,6 +70,8 @@ nav {
 #search {
   background: #0b051c !important;
   color: white;
+  position: relative;
+  z-index: 50;
 }
 #search input.form-control {
   background: #0f0f3b !important;
@@ -78,4 +80,7 @@ nav {
 }
 #search input.form-control::placeholder {
   color: white;
+}
+footer {
+  background-color: #0c0522;
 }
